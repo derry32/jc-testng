@@ -9,7 +9,7 @@ public class CalculatorTest {
     public void testAdd(){
         Calculator calculator = new Calculator();
         int expected = 15;
-        int actual = calculator.add(5, 10);
+        int actual = calculator.add(10, 10);
         Assert.assertEquals(actual,expected);
     }
 }
