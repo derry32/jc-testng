@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="D:/BootCamp/JuaraCoding/Day1/TEST-DEMO/jc-testng/src/test/java/com/juaracoding/CalculatorTest.java">
+        <classes>
+            <class name="com.juaracoding.CalculatorTest">
+                <methods>
+                    <include name="testAdd"/>
+                    <include name="testSubtract"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="D:/BootCamp/JuaraCoding/Day1/TEST-DEMO/jc-testng/src/test/java/com/juaracoding/EmployeeTest.java">
+        <classes>
+            <class name="com.juaracoding.EmployeeTest">
+                <methods>
+                    <include name="testGetName"/>
+                    <include name="testGetDepartment"/>
+                    <include name="testGetSalary"/>
+                    <include name="testSetSalaryNegatif"/>
+                    <include name="testCalculateTax"/>
+                    <include name="testCalculateTaxNegatif"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="D:/BootCamp/JuaraCoding/Day1/TEST-DEMO/jc-testng/src/test/java/com/juaracoding/LoginTest.java">
+        <classes>
+            <class name="com.juaracoding.LoginTest">
+                <methods>
+                    <include name="testIsLogin"/>
+                    <include name="testMessageLoginSuccessfull"/>
+                    <include name="testMessageLoginInvalid"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="D:/BootCamp/JuaraCoding/Day1/TEST-DEMO/jc-testng/src/test/java/com/juaracoding/ProcedureTest.java">
+        <classes>
+            <class name="com.juaracoding.ProcedureTest">
+                <methods>
+                    <include name="testOne"/>
+                    <include name="testTwo"/>
+                    <include name="testThree"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
