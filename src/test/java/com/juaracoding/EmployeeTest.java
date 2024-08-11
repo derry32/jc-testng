@@ -13,8 +13,6 @@ public class EmployeeTest {
         employee.setName("Juara Coding");
         employee.setDepartment("QA");
         employee.setSalary(700000);
-
-
     }
 
     @Test
@@ -22,13 +20,11 @@ public class EmployeeTest {
         String expected = "Juara Coding";
         String actual = employee.getName();
         Assert.assertEquals(actual, expected);
-
     }
 
     @Test
     public void testGetDepartment() {
         Assert.assertEquals(employee.getDepartment(), "QA");
-
     }
 
     @Test

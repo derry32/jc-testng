@@ -30,9 +30,10 @@ public class LoginTest {
     @Test
     public void testMessageLoginInvalid(){
         String expected = "Invalid login";
-        String actual = login.messageLogin(login.isLogin("adminn", "p4ssword"));
+        String actual = login.messageLogin(login.isLogin("adminn", "p4sswor"));
         //Assert.assertTrue(actual.equals("Berhasil login"));
         Assert.assertEquals(actual, expected);
+        System.out.println(expected);
     }
 
 }
